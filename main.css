@@ -55,6 +55,11 @@ header {
     border-color: red;
 }
 
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .submenu li {
     display: block;
     padding: 8px;
