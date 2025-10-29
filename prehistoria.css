@@ -1,0 +1,92 @@
+.banner {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-banner-link {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 28px;
+    font-style: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.prehistoria-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 40px auto;
+    max-width: 1300px;
+    width: 100%;
+}
+
+.prehistoria-text {
+    width: 100%;
+}
+
+.prehistoria-text h2 {
+    margin-bottom: 16px;
+    color: #2e27f5;
+}
+
+.prehistoria-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.prehistoria-temas {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.tema {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.tema-texto {
+    flex: 0 0 40%;
+}
+
+.tema h3 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.tema-imagens {
+    flex: 0 0 60%;
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+}
+
+.tema-imagens img {
+    flex: 0 0 auto;
+    width: 33%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.tema-imagens img:hover {
+    transform: scale(1.15);
+}
