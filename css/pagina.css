@@ -80,7 +80,7 @@
 
 .tema-imagens img {
     flex: 0 0 auto;
-    width: 33%;
+    width: calc(33.33% - 5.33px);
     height: auto;
     object-fit: cover;
     border-radius: 8px;
@@ -123,4 +123,78 @@
     color:rgb(0, 119, 255); 
     border:none;
 
+}
+
+/* 2. Tablet (2 Imagens - Telas de até 992px) */
+@media (max-width: 992px) {
+    .pagina-temas .tema {
+        flex-direction: column;
+    }
+
+    .tema-texto, .tema-imagens {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .tema-imagens img {
+        width: calc(50% - 4px);
+    }
+}
+
+/* 3. Smartphone (1 Imagem - Telas de até 576px) */
+@media (max-width: 576px) {
+    .tema-imagens img {
+        width: 100%;
+    }
+    
+    .tema-imagens {
+        flex-direction: column; 
+        gap: 16px;
+    }
+}
+
+/* Container que será o Link/Overlay */
+.imagem-overlay-link {
+    position: relative; 
+    flex: 0 0 auto; 
+    width: calc(33.33% - 5.33px);
+    overflow: hidden;
+    display: block;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Garante que a imagem se ajuste ao contêiner */
+.imagem-overlay-link img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 0;
+}
+
+/* Estilo do Texto do Overlay */
+.overlay-texto {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.imagem-overlay-link:hover img {
+    transform: scale(1.15);
+}
+
+.imagem-overlay-link:hover .overlay-texto {
+    opacity: 0.8;
 }
