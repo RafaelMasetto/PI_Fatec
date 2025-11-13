@@ -14,4 +14,4 @@
 12/11/2025 - Imagens da página Prehistoria estão agora responsivas. Adicionado também legendas nas imagens da página Prehistoria, usando overlay de texto.<br>
 13/11/2025 - A Página prehistoria.html foi reestruturada, garantindo maior fluidez, mudando o esquema de cores e também garantindo que apenas prehistoria.css cuide da sua estilização.
 O header.html também foi modificado, se adequando ao novo esquema de cores, sendo criado também um novo header.css para cuidar exclusivamente de sua estilização.
-Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma função para que o header identifique e mostre em qual página você está atualmente e uma função para que o botão de menu do header funcione corretamente.<br>
+Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma função para que o header identifique e mostre em qual página você está atualmente e uma função para que o botão de menu do header funcione corretamente. Também foram apagadas tags duplicadas de body e html que haviam no final de todas as páginas.<br>
