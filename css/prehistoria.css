@@ -1,226 +1,162 @@
-/* Revised prehistoria.css */
-
-/* --- 1. General Body and Typography --- */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FBCEB1; /* Very Light Gray */
-    color: #333333;
-    line-height: 1.7; /* Increased for better readability */
-}
-
-.container {
-    padding-top: 20px;
-    max-width: 1360px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* --- 2. Header and Banner Refinement --- */
 .banner {
-    padding-top: 0; /* Remove top padding on banner container */
-    padding-bottom: 0;
-}
-.banner img {
-    width: 100%;
-    height: 300px; /* Fixed height for consistency */
-    object-fit: cover;
-    border-radius: 8px; /* Softened corners */
-}
-/* Optional: Add a subtle orange shadow/gradient to the banner area */
-.banner > div {
     position: relative;
-    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
     overflow: hidden;
-}
-.banner > div:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* Subtle overlay of orange, only visible if the image is dark */
-    background: linear-gradient(to top, rgba(255, 112, 67, 0.1), rgba(255, 112, 67, 0)); 
-}
-
-
-/* --- 3. Main Content Styling --- */
-.pagina-section {
-    padding-top: 30px; /* More space above the content section */
-    max-width: 1360px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.pagina-text p {
-    text-align: justify; /* Academic look */
-    margin-bottom: 1.5rem;
-}
-
-/* Style for the main H2 title */
-.pagina-text h2 {
-    color: #424242; 
-    font-weight: 900; /* Bolder title */
-    text-transform: uppercase;
-    border-bottom: 5px solid #FF7043; /* Accent Orange Underline */
-    padding-bottom: 10px;
-    margin-bottom: 40px;
-    letter-spacing: 2px; /* Increased letter spacing */
-}
-
-/* --- 4. Topic Cards (div.tema) --- */
-.pagina-temas {
-    margin-top: 50px; /* Space between intro text and topic cards */
-}
-
-.tema {
-    display: flex; 
-    flex-direction: column; 
-    margin-bottom: 40px;
-    padding: 25px;
-    background-color: #FFFFFF;
-    border-radius: 12px; /* Slightly more rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Softer, more subtle shadow */
-    border-left: 6px solid #FFCCBC; /* Thicker Pale Orange Left Border */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tema:hover {
-    transform: translateY(-5px); /* Increased lift on hover */
-    box-shadow: 0 8px 15px rgba(255, 112, 67, 0.15); /* Orange-tinted lift shadow */
-}
-
-/* Desktop Layout - Proporção 40% Texto / 60% Imagens (Imagens em Linha) */
-@media (min-width: 992px) {
-    .tema {
-        flex-direction: row; 
-    }
-    .tema-texto {
-        /* TEXTO: 40% (4/10) */
-        flex: 4; 
-        padding-right: 30px; 
-    }
-    .tema-imagens {
-        /* IMAGENS: 60% (6/10) */
-        flex: 6; 
-        
-        /* NOVO: Flexbox para imagens lado a lado */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        /* Alinhamento dos blocos de imagem (em linha) no topo do bloco de texto */
-        align-items: flex-start; /* Melhor para o alinhamento geral do card */
-        gap: 10px;
-        
-        margin-top: 0;
-        padding: 15px;
-        background-color: rgba(255, 204, 188, 0.3); 
-        border-radius: 8px;
-    }
-    
-    /* CORREÇÃO PRINCIPAL: Uso de Aspect Ratio Padding para manter a proporção */
-    .tema-imagens .imagem-overlay-link {
-        width: calc(33.33% - 7px);
-        /* 1. Define a posição relativa para ancorar a imagem (filha) */
-        position: relative;
-        /* 2. Remove a altura normal */
-        height: 0; 
-        /* 3. Define a proporção (ex: 3:2 = 66.66%) com padding-bottom */
-        padding-bottom: 80.66%; 
-        overflow: hidden; /* Garante que a imagem não "vaze" */
-    }
-    
-    .tema-imagens .imagem-overlay-link img {
-        /* 4. Posiciona a imagem para cobrir o contêiner de padding */
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        /* 5. Garante que ela preencha o espaço sem distorcer (cortando) */
-        object-fit: cover;
-    }
-}
-
-/* H3 Topic Headings */
-.tema h3 {
-    color: #FF7043; 
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 1.75rem; 
-}
-
-/* Call-to-Action Buttons */
-.botao-tema {
-    display: inline-block;
-    padding: 12px 30px;
-    background-color: #FF7043;
-    color: white;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 20px;
-}
-.botao-tema:hover {
-    background-color: #E64A19;
-    color: white;
-    box-shadow: 0 6px 15px rgba(255, 112, 67, 0.6);
-}
-
-/* Image Styling and Overlay */
-.imagem-overlay-link {
-    position: relative;
     display: block;
-    overflow: hidden;
-    border-radius: 6px;
-    border: 2px solid #FF7043;
-    /* Adicionado para mobile/geral */
-    flex-grow: 1; 
-    flex-shrink: 1;
 }
 
-.imagem-overlay-link img {
+.banner img {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
-    transition: transform 0.4s ease;
 }
 
-.imagem-overlay-link:hover img {
-    transform: scale(1.03); 
-}
-
-.overlay-texto {
+.overlay-banner-link {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
+    z-index: 1;
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 8px;
-    background-color: rgba(0, 0, 0, 0.75); 
-    color: white;
-    font-weight: 400;
-    text-align: center;
-    font-size: 0.85em;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    font-size: 28px;
+    font-style: bold;
+    color: #fff;
+    text-decoration: none;
 }
 
-.imagem-overlay-link:hover .overlay-texto {
-    opacity: 1;
+.prehistoria-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 40px auto;
+    max-width: 1300px;
+    width: 100%;
 }
 
-/* Media Query for mobile/smaller screens: Grid de 3 imagens side-by-side (mantido) */
-@media (max-width: 991px) {
-    .tema-imagens {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
-        margin-top: 20px;
-        background-color: transparent !important;
-        padding: 0 !important;
-    }
+.prehistoria-text {
+    width: 100%;
+}
+
+.prehistoria-text h2 {
+    margin-bottom: 16px;
+    color: #2e27f5;
+}
+
+.prehistoria-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.prehistoria-temas {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.tema {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.tema-texto {
+    flex: 0 0 40%;
+}
+
+.tema h3 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.tema-imagens {
+    flex: 0 0 60%;
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+}
+
+.tema-imagens img {
+    flex: 0 0 auto;
+    width: 33%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.tema-imagens img:hover {
+    transform: scale(1.15);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*barra de navegação*/
+.navbar {
+    font-family: arial;
+    background:rgb(25, 10, 235);
+}
+
+/*logo da nav*/
+.navbar-brand {
+    margin-left: 10%;
+}
+
+/*titulo na barra*/
+.titulo {
+    color:white;
+}
+
+
+/*links na nav*/
+.nav-link {
+    color:white;
+    font-size: 20px;
+}
+.nav-link:hover {
+    color:black;
+}
+
+
+/*Dropdown da nav*/
+.dropdown-menu {
+    border:2px solid black;
+    
+}
+.dropdown-item {
+    color:black;
+}
+
+
+/*barra de pesquisa*/
+.btn-outline-info {
+    background:white;
+}
+
+
+
+/*Rodapé*/
+.navbar {
+    background:rgb(25, 10, 235);
+}
+
+.titulorodape {
+    color:white;
 }

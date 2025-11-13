@@ -198,28 +198,3 @@
 .imagem-overlay-link:hover .overlay-texto {
     opacity: 0.8;
 }
-
-.tema {
-    align-items: center;
-}
-
-.pagina-temas .tema:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.pagina-temas .tema:nth-child(even) .tema-texto {
-    margin-left: 24px;
-    margin-right: 0px;
-}
-
-.pagina-temas .tema:nth-child(odd) .tema-texto {
-    margin-left: 0px;
-    margin-right: 24px;
-}
-
-.pagina-temas .tema:nth-child(even) .tema-texto h3,
-.pagina-temas .tema:nth-child(even) .tema-texto p,
-.pagina-temas .tema:nth-child(even) .botao-tema {
-    text-align: right;
-    display: block;
-}
