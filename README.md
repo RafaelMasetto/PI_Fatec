@@ -12,3 +12,6 @@
 12/11/2025 - Deletado todo o conteúdo anterior do projetor, que serviu como "protótipo" inicial. Movido para fora todo o conteúdo de PIprojeto, para deletar a pasta PIprojeto.<br>
 12/11/2025 - Integração no código principal do header.html e footer.html e a função javascript para chamar ambos em cada página do site.<br>
 12/11/2025 - Imagens da página Prehistoria estão agora responsivas. Adicionado também legendas nas imagens da página Prehistoria, usando overlay de texto.<br>
+13/11/2025 - A Página prehistoria.html foi reestruturada, garantindo maior fluidez, mudando o esquema de cores e também garantindo que apenas prehistoria.css cuide da sua estilização.
+O header.html também foi modificado, se adequando ao novo esquema de cores, sendo criado também um novo header.css para cuidar exclusivamente de sua estilização.
+Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma função para que o header identifique e mostre em qual página você está atualmente e uma função para que o botão de menu do header funcione corretamente.<br>
