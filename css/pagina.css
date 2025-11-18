@@ -1,225 +1,52 @@
-.banner {
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    display: block;
+/* ============================
+   Estilo dos cards da seção
+============================ */
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-.banner img {
-    display: block;
-    width: 100%;
-    height: auto;
+.card-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.3s ease;
 }
 
-.overlay-banner-link {
-    padding: 16px;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-size: 28px;
-    font-style: bold;
-    color: #fff;
-    text-decoration: none;
+.card-link:hover {
+  transform: scale(1.1);
 }
 
-.pagina-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 24px;
-    margin: 40px auto;
-    max-width: 1300px;
-    width: 100%;
+.card-img {
+  width: 380px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-.pagina-text {
-    width: 100%;
+.pagina-section h2 {
+  color: #424242;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-bottom: 5px solid #FF7043;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  font-family: 'poppins',sans-serif;
 }
 
-.pagina-text h2 {
-    margin-bottom: 16px;
-    color:  rgb(0, 119, 255);;
+.pagina-section h3 {
+  color: #FF7043;
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  font-family: 'poppins',sans-serif;
 }
 
-.pagina-text p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-.pagina-temas {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.tema {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-}
-
-.tema-texto {
-    flex: 0 0 40%;
-}
-
-.tema h3 {
-    color: #333;
-    margin-bottom: 8px;
-}
-
-.tema-imagens {
-    flex: 0 0 60%;
-    display: flex;
-    gap: 8px;
-    overflow: hidden;
-}
-
-.tema-imagens img {
-    flex: 0 0 auto;
-    width: calc(33.33% - 5.33px);
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.tema-imagens img:hover {
-    transform: scale(1.15);
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Roboto, sans-serif;
-}
-
-
-
-.container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.botao-tema {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgb(0, 119, 255); 
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
-    border:3px solid black;
-}
-
-/* Efeito ao passar o mouse */
-.botao-tema:hover {
-    background-color: white;
-    color:rgb(0, 119, 255); 
-    border:none;
-
-}
-
-/* 2. Tablet (2 Imagens - Telas de até 992px) */
-@media (max-width: 992px) {
-    .pagina-temas .tema {
-        flex-direction: column;
-    }
-
-    .tema-texto, .tema-imagens {
-        flex: 0 0 100%;
-        width: 100%;
-    }
-
-    .tema-imagens img {
-        width: calc(50% - 4px);
-    }
-}
-
-/* 3. Smartphone (1 Imagem - Telas de até 576px) */
-@media (max-width: 576px) {
-    .tema-imagens img {
-        width: 100%;
-    }
-    
-    .tema-imagens {
-        flex-direction: column; 
-        gap: 16px;
-    }
-}
-
-/* Container que será o Link/Overlay */
-.imagem-overlay-link {
-    position: relative; 
-    flex: 0 0 auto; 
-    width: calc(33.33% - 5.33px);
-    overflow: hidden;
-    display: block;
-    border-radius: 8px;
-    text-decoration: none;
-    color: white;
-}
-
-/* Garante que a imagem se ajuste ao contêiner */
-.imagem-overlay-link img {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    border-radius: 0;
-}
-
-/* Estilo do Texto do Overlay */
-.overlay-texto {
-    position: absolute; 
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 5px;
-    background-color: rgba(0, 0, 0, 0.6); 
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    opacity: 1; 
-    transition: opacity 0.3s ease;
-}
-
-/* Efeito ao passar o mouse */
-.imagem-overlay-link:hover img {
-    transform: scale(1.15);
-}
-
-.imagem-overlay-link:hover .overlay-texto {
-    opacity: 0.8;
-}
-
-.tema {
-    align-items: center;
-}
-
-.pagina-temas .tema:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.pagina-temas .tema:nth-child(even) .tema-texto {
-    margin-left: 24px;
-    margin-right: 0px;
-}
-
-.pagina-temas .tema:nth-child(odd) .tema-texto {
-    margin-left: 0px;
-    margin-right: 24px;
-}
-
-.pagina-temas .tema:nth-child(even) .tema-texto h3,
-.pagina-temas .tema:nth-child(even) .tema-texto p,
-.pagina-temas .tema:nth-child(even) .botao-tema {
-    text-align: right;
-    display: block;
+.pagina-section p {
+  color: #333333;
+  font-family: 'inter',sans-serif;
+  text-align: justify;
 }
