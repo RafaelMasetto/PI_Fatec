@@ -19,3 +19,4 @@ Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma 
 14/11/2025 - A página inicial foi modificada tendo o Bootstrap retirado e subistituído por uma função Javascript que o deixa responsivo. Foi adicionado as cores temas do site. Os cartões dos cards foram alterados para se ajustar no grid da página. O carrosel foi modificado para ficar menor e receber bordas das cores do site. Foi modificado a pagnia da historia.html, sendo esterelizada pelo CSS de prehistoria.css.<br>
 16/11/2025 - Ajuste no grid das paginas de cada tema usando o CSS prehistoria.css. Criação dos primeiros Cards e adição na página Paleolítico.<br>
 16/11/2025 - Criação dos cards das páginas de Mesolítico, Neolítico e Idade dos Metais.<br>
+17/11/2025 - Criação dos cards da página História Antiga. <br>
