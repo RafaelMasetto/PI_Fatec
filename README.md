@@ -20,3 +20,8 @@ Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma 
 16/11/2025 - Ajuste no grid das paginas de cada tema usando o CSS prehistoria.css. Criação dos primeiros Cards e adição na página Paleolítico.<br>
 16/11/2025 - Criação dos cards das páginas de Mesolítico, Neolítico e Idade dos Metais.<br>
 17/11/2025 - Criação dos cards da página História Antiga. <br>
+18/11/2025 - Criação dos cards da página História Medieval. <br>
+19/11/2025 - Criação dos cards da página História Moderna. <br>
+20/11/2025 - Criação dos cards da página História Contemporânea. <br>
+21/11/2025 - Ajuste nos cards e na página inicial, tendo substituido os links dos temas para História e Pré-História. <br>
+22/11/2025 - Criação dos supercards e supercard.html. Criação de supercard.css. Criação dos banners da página inicial. <br>
