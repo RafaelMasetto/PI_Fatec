@@ -25,3 +25,4 @@ Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma 
 20/11/2025 - Criação dos cards da página História Contemporânea. <br>
 21/11/2025 - Ajuste nos cards e na página inicial, tendo substituido os links dos temas para História e Pré-História. <br>
 22/11/2025 - Criação dos supercards e supercard.html. Criação de supercard.css. Criação dos banners da página inicial. <br>
+23/11/2025 - Ajustando o icone do  favicon na aba do navegador, ajustando as páginas dos conteúdos para a cor FFF1E6. <br>
