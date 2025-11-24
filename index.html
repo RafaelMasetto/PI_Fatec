@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>O Curioso</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/logofatec.png">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
@@ -16,10 +17,19 @@
 
 <!-- PRIMEIRO CONTEÚDO -->
 <div class="container1">
-    <img src="img/logo.png" alt="logo">
-    <h1 class="conteudoTitulo">O Curioso</h1>
+    <img src="img/logofatec.png" alt="logo">
     <h3 class="conteudoSubt">Vamos estudar história!</h3>
-    <p class="conteudoTexto">Um site dedicado a compartilhar conteúdos de história para o público jovem, de forma simples, envolvente e divertida. Explore nossos cards e imagens e torne o aprendizado ainda mais interessante.</p>
+    <p class="conteudoTexto">Um site dedicado a compartilhar conteúdos de história para o público jovem, de forma simples, envolvente e divertida. Explore nossos cards com imagens e torne o aprendizado ainda mais interessante.</p>
+</div>
+
+<!-- CARROSSEL -->
+<div class="carousel">
+    <img src="img/prehbanner.png" class="active" alt="Pré-história" data-link="prehistoria.html">
+    <img src="img/cardbanner.png" alt="História Antiga" data-link="personagem.html">
+    <img src="img/superbanner.png" alt="Idade Média" data-link="supercard.html">
+    <img src="img/medievalbanner.png" alt="História Moderna" data-link="medieval.html">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
 </div>
 
 <!-- SEGUNDO CONTEÚDO -->
@@ -31,89 +41,57 @@
         <p>O site <b style="color:#FF7043;">O Curioso</b> oferece diversos conteúdos de história com seus respectivos cards para deixar o aprendizado ainda mais divertido. Explore, aprenda e seja um curioso!</p>
     </div>
     <div class="cards-row">
-        <a href="img/cards/CARD.png" class="card-link">
-            <img src="img/cards/CARD.png" alt="" class="card-img">
+        <a href="img/cards/CARD72.png" class="card-link">
+            <img src="img/cards/CARD72.png" alt="" class="card-img">
         </a>
-        <a href="" class="card-link">
-            <img src="img/cards/CARD.png" alt="" class="card-img">
+        <a href="img/cards/CARD93.png" class="card-link">
+            <img src="img/cards/CARD93.png" alt="" class="card-img">
         </a>
     </div>
 </div>
 
-<!-- CARROSSEL -->
-<div class="carousel">
-    <img src="img/preH.jpg" class="active" alt="Pré-história">
-    <img src="img/antiga.jpg" alt="História Antiga">
-    <img src="img/idademedia.jpg" alt="Idade Média">
-    <img src="img/navio.png" alt="História Moderna">
-    <button class="prev">&#10094;</button>
-    <button class="next">&#10095;</button>
-</div>
 
 <!-- TEMAS -->
 <section class="temas-section">
     <div class="temas-grid">
-        <div class="tema-card">
+
+        <a href="prehistoria.html" class="tema-card">
             <img src="img/preH.jpg" alt="Pré-história">
             <div class="card-body">
-                <h4>Pré-história</h4>
-                <p>Período anterior ao surgimento da escrita, quando os seres humanos viviam da caça, pesca e coleta.</p>
+                <h2>Pré-história</h2>
+                <p>Explore o passado profundo da humanidade e seus primeiros passos!</p>
             </div>
-        </div>
-        <div class="tema-card">
-            <img src="img/antiga.jpg" alt="História Antiga">
+        </a>
+
+        <a href="historia.html" class="tema-card">
+            <img src="img/historia.png" alt="História">
             <div class="card-body">
-                <h4>História Antiga</h4>
-                <p>Surgimento da escrita e primeiras civilizações como Egito, Mesopotâmia, Grécia e Roma.</p>
+                <h2>História</h2>
+                <p>Conheça o mundo dos faraós, cavaleiros, revoluções e das guerras mundiais!</p>
             </div>
-        </div>
-        <div class="tema-card">
-            <img src="img/idademedia.jpg" alt="Idade Média">
-            <div class="card-body">
-                <h4>Idade Média</h4>
-                <p>Período do feudalismo, cruzadas e crescimento das cidades e comércio.</p>
-            </div>
-        </div>
-        <div class="tema-card">
-            <img src="img/navio.png" alt="História Moderna">
-            <div class="card-body">
-                <h4>Moderna</h4>
-                <p>Começou com as Grandes Navegações e o Renascimento, marcada por transformações culturais e políticas.</p>
-            </div>
-        </div>
+        </a>
+
     </div>
 </section>
 
 <!-- PERSONAGENS -->
 <section class="personagens-section">
   <div class="personagens-title">
-    <h1>Personagens, Guerras e Eventos Históricos</h1>
-    <p>Explore nossa seção exclusiva dedicada a cards especiais sobre figuras históricas, batalhas marcantes, civilizações antigas e eventos que moldaram o mundo. Cada card traz informações detalhadas e ilustrações que tornam o aprendizado mais visual e divertido, permitindo que você descubra curiosidades e fatos fascinantes da história de forma interativa.</p>
+    <h1>Personagens, Monumentos e Eventos Históricos</h1>
+    <p>Cada card traz informações detalhadas e ilustrações de figuras históricas, monumentos, civilizações antigas e eventos importantes, tornando o aprendizado mais visual e divertido, permitindo que você descubra curiosidades e fatos fascinantes da história de forma interativa.</p>
   </div>
 
   <div class="cards-row">
-    <a href="img/cards/CARD.png" class="card-link">
-      <img src="img/cards/CARD.png" alt="Card 1" class="card-img">
+    <a href="img/cards/CARD1.png" class="card-link">
+      <img src="img/cards/CARD1.png" alt="Card 1" class="card-img">
     </a>
-    <a href="img/cards/CARD.png" class="card-link">
-      <img src="img/cards/CARD.png" alt="Card 2" class="card-img">
+    <a href="img/cards/CARD26.png" class="card-link">
+      <img src="img/cards/CARD26.png" alt="Card 2" class="card-img">
     </a>
-    <a href="img/cards/CARD.png" class="card-link">
-      <img src="img/cards/CARD.png" alt="Card 3" class="card-img">
+    <a href="img/cards/CARD16.png" class="card-link">
+      <img src="img/cards/CARD16.png" alt="Card 3" class="card-img">
     </a>
 
-  </div>
-
-  <div class="cards-row">
-    <a href="img/cards/CARD.png" class="card-link">
-      <img src="img/cards/CARD.png" alt="Card 6" class="card-img">
-    </a>
-    <a href="img/cards/CARD.png" class="card-link">
-      <img src="img/cards/CARD.png" alt="Card 7" class="card-img">
-    </a>
-    <a href="img/cards/CARD.png" class="card-link">
-      <img src="img/cards/CARD.png" alt="Card 8" class="card-img">
-    </a>
   </div>
 </section>
 
@@ -125,7 +103,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-    <script>
+<script>
 /* CARROSSEL */
 let slideIndex = 0;
 const slides = document.querySelectorAll('.carousel img');
@@ -139,6 +117,7 @@ function showSlide(index) {
     });
 }
 
+/* Controle de setas */
 prev.addEventListener('click', () => {
     slideIndex = (slideIndex - 1 + slides.length) % slides.length;
     showSlide(slideIndex);
@@ -149,10 +128,19 @@ next.addEventListener('click', () => {
     showSlide(slideIndex);
 });
 
+/* Alternância automática */
 setInterval(() => {
     slideIndex = (slideIndex + 1) % slides.length;
     showSlide(slideIndex);
 }, 5000);
+
+/* Clique nas imagens */
+slides.forEach(slide => {
+    slide.addEventListener('click', () => {
+        const link = slide.getAttribute('data-link');
+        if(link) window.location.href = link;
+    });
+});
 </script>
 
   </body>
