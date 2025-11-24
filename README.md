@@ -8,9 +8,9 @@
 05/11/2025 - Remodelagem da pagina inicial, Escolha da cor do tema do site; rgb(0, 119, 255), white, lightblue, black. Mudanças no conteúdo da pagina inicial, com o carrosel indo para o terceiro container, tendo os dois primeiros focados em conteudos. Criação dos cartões provisórios para a modelagem do conteúdo. Craição dos cartões que serve como links para os temas das paginas. Criação dos cartões para exemplo de cards.<br>
 06/11/2025 - Mudança na navbar, mudando para branco e remodelando a cor da pagina para: white e lightblue. Pagina da Pré-História remodelada para as cores do tema do site, troca do header e footer para igual o da pagina inicial.<br>
 07/11/2024 - Criação das páginas História Antiga, História Medieval e História Moderna. Preenchendo o conteúdo de cada página.<br>
-9/10/2025 - Criaçao e apropriação da logo sendo colocada na Navbar. Feito para dar uma entendidade e aparência para o site, pondo uma lupa para dar enfâse na aparência e personalidade.<br>
+09/11/2025 - Criaçao e apropriação da logo sendo colocada na Navbar. Feito para dar uma entendidade e aparência para o site, pondo uma lupa para dar enfâse na aparência e personalidade.<br>
 12/11/2025 - Remodelagem na navbar, deixando apenas os botões: Inicio, Pré-História, História, Conteúdos e Cards. Criação das páginas dos cards de cada tema específico e remodelando o conteúdo de cada página. Criação da página História Contemporânea. Criação dos subconteúdo específicos de cada contúdo, sendo usado cartões.<br>
-12/11/2025 - Deletado todo o conteúdo anterior do projetor, que serviu como "protótipo" inicial. Movido para fora todo o conteúdo de PIprojeto, para deletar a pasta PIprojeto.<br>
+12/11/2025 - Deletado todo o conteúdo anterior do projeto, que serviu como "protótipo" inicial. Movido para fora todo o conteúdo de PIprojeto, para deletar a pasta PIprojeto.<br>
 12/11/2025 - Integração no código principal do header.html e footer.html e a função javascript para chamar ambos em cada página do site.<br>
 12/11/2025 - Imagens da página Prehistoria estão agora responsivas. Adicionado também legendas nas imagens da página Prehistoria, usando overlay de texto.<br>
 13/11/2025 - A Página prehistoria.html foi reestruturada, garantindo maior fluidez, mudando o esquema de cores e também garantindo que apenas prehistoria.css cuide da sua estilização.
@@ -26,3 +26,4 @@ Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma 
 21/11/2025 - Ajuste nos cards e na página inicial, tendo substituido os links dos temas para História e Pré-História. <br>
 22/11/2025 - Criação dos supercards e supercard.html. Criação de supercard.css. Criação dos banners da página inicial. <br>
 23/11/2025 - Ajustando o icone do  favicon na aba do navegador, ajustando as páginas dos conteúdos para a cor FFF1E6. <br>
+24/11/2025 - Feito o upload de todos os arquivos com todas as modificações no código feitas desde o dia 14/11/2025, incluindo as imagens. Footer e Header finalizados.
