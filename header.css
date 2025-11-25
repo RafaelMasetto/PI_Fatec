@@ -1,0 +1,210 @@
+.app-header {
+    background-color: #FF7043;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #FBCEB1;
+    position: relative;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.header-logo {
+    z-index: 20;
+}
+.header-logo img {
+    height: 70px;
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.header-logo img:hover {
+    transform: scale(1.05);
+}
+
+.header-toggler {
+    display: none; 
+    font-size: 28px;
+    background: none;
+    border: 2px solid #FF7043;
+    color: #FF7043;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    z-index: 20;
+}
+
+/* Navegação (Desktop) */
+.header-nav {
+    display: flex;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; 
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px; 
+    align-items: center;
+}
+
+.nav-item {
+     flex-shrink: 0; 
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #FF7043;
+    border-bottom-color: #FF7043;
+}
+
+.nav-link.active {
+    color: #E64A19;
+    font-weight: 700;
+    border-bottom-color: #E64A19;
+}
+
+.dropdown { position: relative; }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #FFCCBC;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    min-width: 200px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-menu { display: block; }
+
+.dropdown-item {
+    padding: 8px 20px;
+    color: #333333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #FFCCBC;
+    color: #E64A19;
+}
+
+.nav-list .botao-login {
+    background-color: #FF7043;
+    color: white !important;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-bottom: none !important;
+    margin-left: 10px;
+}
+.nav-list .botao-login:hover {
+    background-color: #E64A19;
+    transform: scale(1.05);
+}
+
+
+/* Mobile (max-width: 991px) */
+@media (max-width: 991px) {
+    .header-container { 
+        min-height: 60px; 
+    }
+    
+    .header-toggler { 
+        display: block; 
+        margin-left: auto;
+    }
+    
+    .header-logo ~ .header-toggler {
+        margin-left: 0;
+    }
+
+    .header-logo img {
+        height: 50px; 
+    }
+
+    .header-nav {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        transform: none;
+        display: none;
+        width: 100%;
+        background-color: #FFFFFF;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+        justify-content: center;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        padding: 10px 0;
+    }
+    
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-link {
+        padding: 15px;
+        width: 100%;
+        border-bottom: none !important;
+    }
+
+    .nav-link:hover, .nav-link.active {
+         background-color: #FFCCBC; 
+    }
+    
+    .dropdown-menu {
+        position: static;
+        display: block;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding-left: 0;
+        transform: none;
+    }
+
+    .nav-list .botao-login {
+        margin: 10px auto;
+        padding: 12px 30px;
+        width: 80%;
+    }
+}
