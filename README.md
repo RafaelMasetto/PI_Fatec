@@ -29,3 +29,4 @@ Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma 
 24/11/2025 - Feito o upload de todos os arquivos com todas as modificações no código feitas desde o dia 14/11/2025, incluindo as imagens. Footer e Header finalizados. <br>
 25/11/2025 - Ajustes finais no header e footer.html e .css. <br>
 25/11/2025 - A logo havia sido retirada do header.html, para não haver redundância, pois na página index já havia uma logo maior logo abaixo do header. Porém, como nas outras páginas não havia nenhuma logo, foi criado uma função dentro do incluir.js para identificar quando o user estiver na index.html, caso positivo, a logo então fica escondida. Se for qualquer outra página do site, a logo aparece no header normalmente. <br>
+25/11/2025 - Mudança no esquema de cores do header e footer. <br>
