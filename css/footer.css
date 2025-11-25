@@ -1,5 +1,5 @@
 .rodape {
-    background-color: #424242;
+    background-color: #FBCEB1;
     padding: 30px 20px;
     color: white;
     font-family: 'Inter', sans-serif;
@@ -7,7 +7,8 @@
 }
 
 .rodape .container {
-    max-width: 1200px;
+    max-width: 1200px !important;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -29,7 +30,7 @@
     padding: 6px 12px;
     border-radius: 10px;
     text-decoration: none !important;
-    color: #FFCCBC;
+    color: #424242;
     transition: background-color 0.3s, color 0.3s;
     font-weight: 500;
     cursor: pointer;
@@ -55,7 +56,7 @@
 
 .rodape p {
     font-size: 0.9em;
-    color: #AAAAAA;
+    color: #424242;
     margin-top: 20px;
     margin-bottom: 0;
 }

@@ -275,27 +275,6 @@
 
 
 
-    /*Rodapé*/
-    .rodape {
-    background-color: rgb(0, 119, 255);
-    padding: 20px;
-    text-align: center;
-    }
-
-    .rodape .rodapelink {
-    display: inline-block !important;  
-    padding: 6px 12px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    }
-
-    .rodape .rodapelink:hover {
-    background: white;
-    color: rgb(0, 119, 255);
-    }
-
-
     /* RESPONSIVO */
 @media (max-width: 768px) {
     .container2 {
