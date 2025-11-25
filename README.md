@@ -26,4 +26,5 @@ Incluir.js foi modificado, com novas funções adicionadas. Especificamente uma 
 21/11/2025 - Ajuste nos cards e na página inicial, tendo substituido os links dos temas para História e Pré-História. <br>
 22/11/2025 - Criação dos supercards e supercard.html. Criação de supercard.css. Criação dos banners da página inicial. <br>
 23/11/2025 - Ajustando o icone do  favicon na aba do navegador, ajustando as páginas dos conteúdos para a cor FFF1E6. <br>
-24/11/2025 - Feito o upload de todos os arquivos com todas as modificações no código feitas desde o dia 14/11/2025, incluindo as imagens. Footer e Header finalizados.
+24/11/2025 - Feito o upload de todos os arquivos com todas as modificações no código feitas desde o dia 14/11/2025, incluindo as imagens. Footer e Header finalizados. <br>
+25/11/2025 - Ajustes finais no header e footer.html e .css. <br>
