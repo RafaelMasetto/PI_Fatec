@@ -14,6 +14,8 @@ Interatividade Visual: Através de carrosséis de imagens e efeitos de hover (qu
 Tecnologias Utilizadas <br>
 HTML5 - CSS3 - JavaScript - Bootstrap 5 - Google Fonts - Figma - Vercel - Visual Studio Code (VS Code) - GitHub <br>
 
+Link do site no Vercel: https://ocurioso.vercel.app/ <br>
+
 Estrutura das Pastas: <br>
 Pasta principal contendo todos os arquivos .html e as outras pastas. Pasta CSS contendo todoso os arquivos .css. Pasta img contendo todas imagens utilizadas e outras 3 pastas: Cards, historia e prehistoria, cada uma com as imagens daquele tema. E por último uma pasta js contendo o código .js. <br>
 
