@@ -1,3 +1,32 @@
+O Curioso <br>
+
+Descrição da Solução <br>
+Desenvolvimento de uma plataforma web educacional, voltada para o público infantojuvenil. A solução visa mitigar o desinteresse comum pelo estudo de História através da aplicação de métodos de Microlearning (aprendizado em pequenas doses). O sistema substitui textos densos e longos por "Cards" visuais e resumos objetivos, organizados cronologicamente (Pré-História, Idade Antiga, Média, Moderna e Contemporânea). A interface é responsiva e intuitiva, permitindo que o usuário navegue por eras e eventos específicos de forma ágil, utilizando recursos visuais como carrosséis e imagens interativas para facilitar a fixação do conteúdo. <br>
+
+Objetivos <br>
+Combater o Desinteresse: O site foi criado explicitamente para combater a visão de que estudar história é "maçante" ou difícil devido à enorme quantidade de conteúdo textual tradicionalmente ensinado nas escolas. <br>
+Linguagem Acessível: Compartilhando conteúdos de forma "simples, envolvente e divertida", adaptando a linguagem acadêmica para algo que o jovem consiga consumir rapidamente. <br>
+Uso de Cards: A principal ferramenta pedagógica são os "Cards". O objetivo é transformar tópicos complexos em pequenos cartões com imagens e textos curtos. Isso ajuda a quebrar barreiras cognitivas, permitindo que o aluno aprenda por associação visual e resumos diretos. <br>
+Fragmentação do Conteúdo: Em vez de textos longos e contínuos, o projeto divide a História em eras claras (Pré-História, Antiga, Medieval, Moderna, Contemporânea) e subdivide essas eras em tópicos menores (ex: Paleolítico, Neolítico), evitando a sobrecarga de informação. <br>
+Navegação Cronológica e Temática: O site guia o usuário através da linha do tempo da humanidade, mas também permite a exploração por temas específicos (Personagens, Monumentos, Guerras), dando autonomia ao estudante para escolher o que quer aprender. <br>
+Interatividade Visual: Através de carrosséis de imagens e efeitos de hover (quando o mouse passa por cima e revela informações), o projeto busca manter o usuário engajado visualmente, tornando a navegação ativa em vez de passiva. <br>
+
+Tecnologias Utilizadas <br>
+HTML5 - CSS3 - JavaScript - Bootstrap 5 - Google Fonts - Figma - Vercel - Visual Studio Code (VS Code) - GitHub <br>
+
+Estrutura das Pastas: <br>
+Pasta principal contendo todos os arquivos .html e as outras pastas. Pasta CSS contendo todoso os arquivos .css. Pasta img contendo todas imagens utilizadas e outras 3 pastas: Cards, historia e prehistoria, cada uma com as imagens daquele tema. E por último uma pasta js contendo o código .js. <br>
+
+Integrantes: <br>
+PEDRO EMANUEL MACÊDO PORPHIRIO - Desenvolver Identidade Visual <br>
+https://github.com/PedroMorratheo <br>
+
+JOSE GABRIEL SENTINELLA - Desenvolver o HTML e Bootstrap e Desenvolver os Cards <br>
+https://github.com/josegabrielsentinella1-droid <br>
+
+RAFAEL MASETTO - Desenvolver o HTML, CSS e JS <br>
+https://github.com/RafaelMasetto <br>
+
 28/10/2025 - Commit Inicial contendo o código do site com as primeiras ideias.<br>
 28/10/2025 - Novo Commit com algumas mudanças no código.<br>
 29/10/2025 - Commit com algumas mudanças simples. Foi feito o link dos temas Pré-História e História com suas respectivas páginas. Também foi adicionado a página para o tema Pré-História em seus estágios iniciais de desenvolvimento.
