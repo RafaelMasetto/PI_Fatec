@@ -5,7 +5,7 @@ Desenvolvimento de uma plataforma web educacional, voltada para o público infan
 
 Objetivos <br>
 Combater o Desinteresse: O site foi criado explicitamente para combater a visão de que estudar história é "maçante" ou difícil devido à enorme quantidade de conteúdo textual tradicionalmente ensinado nas escolas. <br>
-Linguagem Acessível: Compartilhando conteúdos de forma "simples, envolvente e divertida", adaptando a linguagem acadêmica para algo que o jovem consiga consumir rapidamente. <br>
+Linguagem Acessível: Compartilhando conteúdos de forma simples, envolvente e divertida, adaptando a linguagem acadêmica para algo que o jovem consiga consumir rapidamente. <br>
 Uso de Cards: A principal ferramenta pedagógica são os "Cards". O objetivo é transformar tópicos complexos em pequenos cartões com imagens e textos curtos. Isso ajuda a quebrar barreiras cognitivas, permitindo que o aluno aprenda por associação visual e resumos diretos. <br>
 Fragmentação do Conteúdo: Em vez de textos longos e contínuos, o projeto divide a História em eras claras (Pré-História, Antiga, Medieval, Moderna, Contemporânea) e subdivide essas eras em tópicos menores (ex: Paleolítico, Neolítico), evitando a sobrecarga de informação. <br>
 Navegação Cronológica e Temática: O site guia o usuário através da linha do tempo da humanidade, mas também permite a exploração por temas específicos (Personagens, Monumentos, Guerras), dando autonomia ao estudante para escolher o que quer aprender. <br>
